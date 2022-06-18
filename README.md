@@ -19,6 +19,16 @@ This file contains the code for the network cloud formation script. It contains 
 ### udagram-infra.jpg
   an image showing the infrastructure diagram followed.
 
-## How to 
+## How to run this cloud formation script:
+``` ./create.sh udagramserver servers.yml server-parameters.json ```
+
+#### To update:
+
+```./update.sh udagramserver servers.yml server-parameters.json ```
+
+
+
+### live link
+[udagram](http://udagr-webap-1i521wm32u4ci-661153407.us-east-1.elb.amazonaws.com/)
 
 ![Infrastructure diagram](udagram-infra.jpeg)
