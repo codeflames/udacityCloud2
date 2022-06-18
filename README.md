@@ -20,9 +20,13 @@ This file contains the code for the network cloud formation script. It contains 
   an image showing the infrastructure diagram followed.
 
 ## How to run this cloud formation script:
-``` ./create.sh udagramserver servers.yml server-parameters.json ```
+
+```./create.sh udagramnet network.yml network-parameters.json ``` 
+
+```./create.sh udagramserver servers.yml server-parameters.json ```
 
 #### To update:
+```./update.sh udagramnet network.yml network-parameters.json ```
 
 ```./update.sh udagramserver servers.yml server-parameters.json ```
 
